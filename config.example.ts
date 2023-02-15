@@ -1,20 +1,32 @@
 const config: Config = {
     mode: 'DIFFERENT_DIMENSION_ME', // 'DIFFERENT_DIMENSION_ME' | 'AI_PAINTING_ANIME'
-    botToken: 'put_your_token_here',
+    botToken: '5778803513:AAGqTkyF--atxLBdKisq4xx6YXgFUvSiUW8',
     keepFiles: {
-        compared: true,
-        input: true,
-        single: true,
-        video: true,
+        compared: false,
+        input: false,
+        single: false,
+        video: false,
     },
     messages: {
+
         blocked: 'The Chinese website has blocked the bot, too bad 🤷‍♂️',
+
         bye:
-            'Thank you for using this bot 👍\n' +
-            'Please rate and fork it on [Github](https://github.com/lmcsu/qq-neural-anime-tg) ♥️',
-        hello: 'Hi 👋 Send me a photo to convert it into a 2D anime art',
-        media: '@qq\\_neural\\_anime\\_bot',
-        received: 'Photo has been received, please wait',
+
+            '💚 Thanks For Using Bot 💚\n' +
+
+            '💚 You can add bot your groups 💚\n' +
+
+            '💚 [Bot Channel](https://t.me/botkingdombot) 💚\n' +
+
+            'special Thanks For script Owner Imcsu',
+
+        hello: 'Hi 👋 Send me a photo to convert it into a 2D anime art\n 🌸 Be sure to join the channel @botkingdombot',
+
+        media: '@Anime\\qq\\Ai\\_bot',
+
+       received: 'Photo has been received please wait 🍀',
+
     },
     sendMedia: {
         compared: true,
